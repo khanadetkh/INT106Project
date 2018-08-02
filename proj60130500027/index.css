@@ -1,0 +1,29 @@
+body {
+	background-image: url(img/f0df158dbb68b43959c728b640e789e0.jpg);
+	font-family: 'Itim', cursive;
+	margin: 25px;
+}
+a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 16pt;
+}
+
+.button a {
+	background-color: #f40bb2;
+	color: #ffffff;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 15px;
+	font-size: 24pt;
+	transition-duration: 0.4s;
+
+	
+}
+a:hover {
+	background-color: #ffffff;
+	color: #000000;
+	font-style: bold;
+}
+

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="register.css">
+		<link rel="icon" type="image/png" href="img/icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<title>BEARBOOK.com | แล้วคุณจะรู้ว่าหมีหนังสือคืออะไร?</title>
+		<SCRIPT LANGUAGE="JavaScript">
+	var scrl = "BEARBOOK.com | แล้วคุณจะรู้ว่าหมีหนังสือคืออะไร?  ";
+	function scrlsts() {
+	 scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+	 document.title = scrl;
+	 setTimeout("scrlsts()", 300);
+	 }
+	</SCRIPT>
+</head>
+<body>
+        <nav>
+                <div id="header">
+                    <ul class="menu"> 
+                        <span id="index"> 
+                            <a href="index.html">&#x26EA</a>
+                        </span>
+                        <span id="books"> 
+                            <a href="books.html">HOME</a>
+                        </span>
+                        <span id="contact"> 
+                            <a href="contact.html">CONTACT</a>
+                        </span>
+                        <span id="register"> 
+                            <a href="register.html">REGISTER</a>
+                        </span>
+                        <span id="login"> 
+                            <a href="login.html">LOGIN</a>
+                        </span>
+                    </ul>
+                </div>
+            </nav>
+                        <div id="content">
+                            <h1 class="animated flash">Register | ลงทะเบียน</h1>
+                            <fieldset>
+                                <legend>
+                                    <h3>Register form</h3></legend>
+                                <form method="POST">
+                                    <table>
+                                        <tr>
+                                            <td>Username :</td>
+                                            <td>
+                                                <input type=text name="username" value="" pattern="[a-zA-Z0-9]{4,16}" autofocus required> (only charracter and number 4-16 length)</td>
+                                        </tr>
+                                        <tr>
+                                            <td> Password :</td>
+                                            <td>
+                                                <input type="password" name="password" value="" pattern="{4,16}" required> (4-16 length)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Confirm password :</td>
+                                            <td>
+                                                <input type="password" value="" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td> ชื่อลูกค้า :</td>
+                                            <td>
+                                                <input type="text" name="custName" value="" pattern="[a-zA-Z]" required> (only charracter!)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>นามสกุลลูกค้า :</td>
+                                            <td>
+                                                <input type="text" name="custSurname" value="" pattern="[a-zA-z]" required> (only charracter!)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ที่อยู่สำหรับการจัดส่ง :</td>
+                                            <td>
+                                                <textarea cols="50" rows="10" namw="custAddress" required></textarea>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>เบอร์โทรศัพท์ : </td>
+                                            <td>
+                                                <input type="number" name="custTel" value="" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email : </td>
+                                            <td>
+                                                <input type="email" name="custEmail" value="" required>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>เพศ :</td>
+                                            <td>
+                                                <input type="radio" name="sex" value="male" required>ชาย
+                                                <input type="radio" name="sex" value="female" required>หญิง</td>
+                                        </tr>
+                                        <tr>
+                                            <td>วัน เดือน ปี เกิด ของลูกค้า:</td>
+                                            <td>
+                                                <input type="date" name="bd" value="date" required></td>
+                                        </tr>
+                                        <tr>
+                                            <td>รูปแบบการจัดส่ง :</td>
+                                            <td>
+                                                <input type="radio" name="transport" value="register" required>ลงทะเบียน
+                                                <input type="radio" name="transport" value="ems" required>EMS
+                                                <input type="radio" name="transport" value="Kerry" required>Kerry Express</td>
+                                        </tr>
+                                    </table>
+                                    <br>
+                                    <div id="but">
+                                        <input type=reset value="Clear"></input>
+                                        <input type="submit" value="Submit"></input>
+                                    </div>
+                                </form>
+                            </fieldset>
+                        </div>
+                    </div>
+            
+                </div>
+            
+	<div class="footer">
+		&copy;2018 |  BEARBOOK.com | แล้วคุณจะรู้ว่า 'หมีหนังสือ' คืออะไร?
+	</div>
+</body>
+</html>
